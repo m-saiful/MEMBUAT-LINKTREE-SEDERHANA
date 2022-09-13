@@ -15,4 +15,4 @@ Website ini di bangun menggunakan :
 - [Chrome](https://www.google.com/intl/id_id/chrome/)
 
 ## Demo Apps : 
-![Assignmen 2](https://user-images.githubusercontent.com/104358073/188840156-620a9e11-7af6-4665-986a-306e63b3440e.gif)
+![Linktree](https://user-images.githubusercontent.com/104358073/189834476-ca4ebd9e-242d-4361-8bc0-371140de456f.png)
