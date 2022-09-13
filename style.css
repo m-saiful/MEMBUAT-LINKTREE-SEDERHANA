@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  width: 90vw;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 10vh 2vw;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 1.6rem;
+  margin-top: 10px;
+}
+
+.about {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.instagram {
+  background: linear-gradient(
+    90deg,
+    rgba(120, 11, 142, 1) 0%,
+    rgba(168, 36, 25, 1) 51%,
+    rgba(255, 166, 0, 1) 100%
+  );
+}
+
+.youtube {
+  background: linear-gradient(
+    90deg,
+    rgba(142, 11, 11, 1) 0%,
+    rgba(223, 23, 23, 1) 100%
+  );
+}
+.facebook {
+  background: linear-gradient(
+    90deg,
+    rgba(19, 37, 194, 1) 0%,
+    rgba(36, 150, 230, 1) 100%
+  );
+}
+.whatsapp {
+  background: linear-gradient(
+    90deg,
+    rgba(21, 122, 30, 1) 0%,
+    rgba(47, 184, 19, 1) 100%
+  );
+}
+.tiktok {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 80) 0%,
+    rgba(0, 0, 0) 25%,
+    rgba(0, 0, 0) 75%,
+    rgba(0, 242, 234) 100%
+  );
+}
+.email {
+  background: linear-gradient(90deg, 
+  rgba(228,217,221,1) 0%, 
+  rgba(231,92,166,1) 47%, 
+  rgba(206,220,223,1) 100%);
+}
+.twitter {
+  background: linear-gradient(90deg, 
+  rgba(60,71,164,1) 0%, 
+  rgba(92,134,231,1) 47%, 
+  rgba(110,123,222,1) 100%);
+}
+.github {
+  background: linear-gradient(90deg, 
+  rgba(0,0,0,1) 0%, 
+  rgba(78,94,130,1) 47%, 
+  rgba(0,0,3,1) 100%);
+}
+.linkedin {
+  background: linear-gradient(90deg, 
+  rgba(19,8,238,1) 0%, 
+  rgba(179,200,246,1) 47%, 
+  rgba(12,12,223,1) 100%);
+}
+
+.copyright {
+  text-align: center;
+  padding: 10px;
+  margin-top: 16px;
+  font-size: 12px;
+}
